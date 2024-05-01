@@ -18,7 +18,7 @@
       <div class="user_choice box">
         <button class="border" onclick="
           let compChoice = gen_compChoice();
-          showCompChoice(compChoice,50);
+          showCompChoice(compChoice);
           let finalResult = genResult('Rock', compChoice);
           showResult(compChoice,finalResult);
 
@@ -28,7 +28,7 @@
         <button class="border" onclick="
           
           compChoice = gen_compChoice();
-          showCompChoice(compChoice,50);
+          showCompChoice(compChoice);
           finalResult = genResult('Paper', compChoice);
 
           showResult(compChoice,finalResult);
@@ -38,7 +38,7 @@
 
         <button class="border" onclick="
           compChoice = gen_compChoice();
-          showCompChoice(compChoice,50);
+          showCompChoice(compChoice);
           finalResult = genResult('Scissors', compChoice);
           showResult(compChoice,finalResult);
         
@@ -58,17 +58,17 @@
     </div>
 
     <div class="score">
-      <div class="wins_dis" >
+      <div class="score_dis" >
         <div class="score_box" id="win_score"></div>
         <p>Wins</p>
       </div>
 
-      <div class="lose_dis">
+      <div class="score_dis">
         <div class="score_box" id="lose_score"></div>
         <p>Loses</p>
       </div>
         
-      <div class="tie_dis">
+      <div class="score_dis">
         <div class="score_box" id="tie_score" ></div>
         <p>Ties</p>
       </div>
