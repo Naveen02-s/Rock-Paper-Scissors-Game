@@ -1,0 +1,152 @@
+*{
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: bisque;
+}
+
+header{
+  background-color: rgb(249, 199, 139);
+}
+
+main{
+  width: 70%;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+h1{
+  text-align: center;
+  color: darkslategray;
+  margin-top: 0%;
+  /* background-color: yellow; */
+}
+
+.choice_box{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.box{
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: yellow;
+}
+
+.player{
+  background-color: rgb(177, 193, 206);
+}
+
+.border{
+  border: 2px solid white;
+  border-radius: 50%;
+
+  /* color:rgb(50, 107, 109); */
+  background: rgba(245, 245, 245, 0.489) ;
+  font-weight: 900;
+  width: 100px;
+  margin: auto;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: rgba(245, 245, 245, 0.726);
+}
+
+.compChoice_dis{
+  /* border: 5px solid white; */
+  margin: auto;
+  /* color:rgb(50, 107, 109); */
+  font-weight: 900;
+  width: 100px;
+}
+
+.score{
+  display:flex;
+  justify-content: center;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.score_box{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  width: 50px;
+  height: 50px;
+  border: 7px solid rgb(171, 170, 170);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+}
+
+.result{
+  border: none;
+  background-color: rgb(89, 171, 159);
+  margin-top:50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.result_dis{
+  color: brown;
+  font-weight: 900;
+  font-size: 40px;
+  border: 5px solid white;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.reset{
+  text-align: center;
+  border: none;
+  margin-top: 2rem;
+}
+
+.reset_img{
+  height:60px;
+}
+
+.game_icons{
+  height:50px;
+}
+
+.compChoice_dis {
+  height: 50px;
+}
+
+.Rock{
+  background-image: url("Images/flippedRock.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+}
+
+.Paper{
+  background-image: url("Images/flippedPaper.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+}
+
+.Scissors{
+  background-image: url("Images/flippedScissors.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+}
